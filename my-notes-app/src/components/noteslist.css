@@ -1,0 +1,111 @@
+.note-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 20px auto 0;
+}
+.note {
+    background-color: rgb(250, 250, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 280px;
+    padding: 10px 15px 15px;
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+}
+.note-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.del-icon {
+    font-size: 1.2rem;
+}
+.del-icon:hover {
+    cursor: pointer;
+}
+.textarea {
+    height: initial;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    padding: 5px;
+    background-color: rgb(145, 240, 240);
+}
+.textarea-note {
+    text-decoration: none;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+    padding: 5px;
+    border: none;
+    height: initial;
+    background-color: rgb(250, 250, 169);
+}
+.note.create {
+    background-color: rgb(145, 240, 240);
+}
+.create-note-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.save {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    font-weight: 500;
+    border-radius: 15px;
+    background-color: rgb(247, 244, 244);
+    color: rgb(58, 56, 56);
+}
+.save:hover {
+    cursor: pointer;
+}
+.search {
+    background-color: rgb(226, 225, 225);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 20px auto 60px;
+}
+.search input {
+    background-color: rgb(226, 225, 225);
+    border: none;
+    padding: 5px 2px;
+    outline: none;
+    font-size: 1rem;
+    width: 100%;
+}
+.search-icon {
+    font-size: 1.2rem;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+h1 {
+    font-size: 2rem;
+}
+.toggle {
+    font-weight: 600;
+    color: rgb(102, 99, 99);
+}
+
+.dark-mode {
+    background-color: black;
+}
+.dark-mode h1 {
+    color: white;
+}
+.note-text {
+}
